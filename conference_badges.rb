@@ -11,7 +11,7 @@ end
 end
 
 def assign_rooms(attendees)
-  x = 1
+  x = 0
   room_assignments = []
   attendees.each do |name|
   x += 1
