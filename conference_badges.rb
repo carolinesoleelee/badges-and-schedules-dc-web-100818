@@ -7,7 +7,7 @@ def batch_badge_creator(attendees)
   attendees.each do |name|
   badges.push(name)
 end
-  return badge
+  return badgea
 end
 
 def assign_rooms(attendees)
