@@ -19,3 +19,13 @@ def assign_rooms(attendees)
   end
   return room_assignments
 end
+
+
+def printer(names)
+  batch_badge_creator(names).each do |result|
+  puts result
+end
+  assign_rooms(names).each do |result|
+  puts result
+end
+end
